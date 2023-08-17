@@ -10,6 +10,7 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Raleway:wght@500;700&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -20,7 +21,10 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Jinmo Kim</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/img/profile.jpeg" alt="..." /></span>
+                <span class="d-none d-lg-block mb-3">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/img/profile.jpeg" alt="..." /></br>
+                    <strong style="font-size:1.5rem">Jinmo Kim</strong>
+                </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -40,45 +44,67 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h1 class="mb-3">
+                    <h1 class="mb-5">
                         Jinmo
                         <span class="text-primary">Kim</span>
                     </h1>
 
                     <div class="subheading mb-5">
-                        <b style="font-size:2rem">POSTECH, Computer Science and Engineering</b> </br>
-                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <b style="font-size:2rem; color:rgb(15, 15, 112)">Seoul National University</b></br>
+                        <b class="mb-5" style="font-size:1.5rem; color:rgb(50, 50, 50)">Interdisciplinary Program in Artificial Intelligence</b>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mt-3">
                             <div class="flex-grow-0" style="text-align: center; width: 40px; padding-right: 1rem;">
                                 <i class="fas fa-map-marker-alt"></i> 
                             </div>
-                            <div class="flex-grow-1">77, Cheongam-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do, Republic of Korea (37673)</div>
+                            <div class="flex-grow-1">1 Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea (08826)</div>
                         </div>
                         <div class="d-flex flex-column flex-md-row justify-content-between">
                             <div class="flex-grow-0" style="text-align: center; width: 40px; padding-right: 1rem;">
                                 <i class="far fa-envelope"></i>
                             </div>
-                            <div class="flex-grow-1"><a href="mailto:jmkim1012@postech.ac.kr"> jmkim1012@postech.ac.kr</a></div>
+                            <div class="flex-grow-1"><a href="mailto:jmkim1012@snu.ac.kr"> jmkim1012@snu.ac.kr</a></div>
                         </div>
                     </div>
 
                     <p class="lead mb-5"> 
-                        <strong>
-                            M.S. Student in CSE, POSTECH Computer Vision Lab. (Prof. <a href="https://jaesik.info"> Jaesik Park</a>)<br>
+                        <strong style="font-size: 1.4rem; color:rgb(50, 50, 50)">
+                            M.S./Ph.D. Integrated Student in IPAI, Seoul National University. (Prof. <a href="https://jaesik.info"> Jaesik Park</a>)<br>
                         </strong>
-                            Feb. 2023 - Present
+                            Sep. 2023 - Present
                     </p>
 
-                    <p class="lead mb-5">  
+                    <p class="lead" style="margin-bottom: 7rem">  
                         <b>Programming Language:</b> C/C++, Python </br>
-                        <b>Exposure to</b> Open3D, PCL, OpenCV, OpenGL, GLSL, Verilog </br></br>
-                        🌱 <b>I’m currently learning</b> 3D Vision with LiDAR and Camera, NeRF, Reinforcement Learning </br>
-                        🔭 <b>I’m currently working on</b> research in POSTECH Computer Vision Lab. </br></br>
-                        <b>Curriculum Vitae </b><a class="social-icon" href="./assets/Jinmo_Kim_CV.pdf"><i class="fas fa-file-alt"></i></a>
+                        <b>Exposure to</b> PyTorch, Tensorflow, Open3D, PCL, OpenCV, OpenGL, GLSL, Verilog </br></br>
+                        🌱 <b>I’m currently learning</b> 3D Vision(LiDAR Perception, Robot Vision), Neural Graphics</br>
+                        🔭 <b>I’m currently working on</b> research in Open-vocabulary 3D Perception, Surface Reconstruction.
                     </p>
 
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/jinmo-kim-3041501aa"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/JinmoKIM1012"><i class="fab fa-github"></i></a>
+                    <div class="d-flex flex-row social-icons">
+                        <div class="d-flex flex-column" style="justify-content: center; align-items: center; margin-right: 2rem;">
+                            <a class="social-icon mb-1" href="./assets/Jinmo_Kim_CV.pdf" style="margin-right: 0; width: 5rem; height: 5rem;">
+                                <i class="fas fa-user" style="width: 2rem; height: 2rem;"></i>
+                            </a>
+                            <div style="font-size: 1rem; color:rgb(50, 50, 50);">
+                                CV
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column" style="justify-content: center; align-items: center; margin-right: 2rem;">
+                            <a class="social-icon mb-1" href="https://www.linkedin.com/in/jinmo-kim-3041501aa" style="margin-right: 0; width: 5rem; height: 5rem;">
+                                <i class="fab fa-linkedin-in" style="width: 2rem; height: 2rem;"></i>
+                            </a>
+                            <div style="font-size: 1rem; color:rgb(50, 50, 50);">
+                                LinkedIn
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column" style="justify-content: center; align-items: center; margin-right: 2rem;">
+                            <a class="social-icon mb-1" href="https://github.com/JinmoKIM1012" style="margin-right: 0; width: 5rem; height: 5rem;">
+                                <i class="fab fa-github" style="width: 2.5rem; height: 2.5rem;"></i>
+                            </a>
+                            <div style="font-size: 1rem; color:rgb(50, 50, 50);">
+                                GitHub
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -88,32 +114,69 @@
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="display: table; flex-wrap:wrap">
+                        <img class="d-none d-lg-block img-fluid img-profilem" src="./assets/img/snu.png" alt="..." style="width: 4.5rem; height: 4.5rem; margin-right: 0.8rem; vertical-align: middle;"/>
+                        <div class="flex-grow-1" style="display: table;">
+                            <h3 class="mb-0" style="display: table-row">Seoul National University</h3>
+                            <div class="subheading mb-3" style="display: table-row; font-size: calc(1.0rem + 0.6vw);">M.S./Ph.D. Integrated Student, IPAI</div>
+                        </div>
+                        <div class="flex-shrink-0" style="display:table; vertical-align: middle;"><span class="text-primary" style="display: table-cell; vertical-align: middle;">Feb 2023 - Aug 2023</span></div>
+                        
+                        <div class="flex-shrink-0 mb-2" style="flex-basis:100%"></div>
+                        
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-none d-lg-block flex-shrink-0" style="width: 4.5rem; height: 4.5rem; margin-right: 0.8rem;"/></div>
+                            <div class="flex-grow-1">
+                                <p style="font-size: calc(0.7rem + 0.5vw);">Advised by professor <a href="https://jaesik.info">Jaesik Park</a>.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">POSTECH(Pohang University of Science and Technology)</h3>
-                            <div class="subheading mb-3">M.S., Computer Science and Engineering</div>
-                            <p>Computer Vision Lab., advised by professor <a href="https://jaesik.info">Jaesik Park</a>.</p>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="display: table; flex-wrap:wrap">
+                        <img class="d-none d-lg-block img-fluid img-profilem" src="./assets/img/postech.svg" alt="..." style="width: 4.5rem; height: 4.5rem; margin-right: 0.8rem; vertical-align: middle;"/>
+                        <div class="flex-grow-1" style="display: table;">
+                            <h3 class="mb-0" style="display: table-row">Pohang University of Science and Technology</h3>
+                            <div class="subheading mb-3" style="display: table-row; font-size: calc(1.0rem + 0.6vw);">M.S. Student, Computer Science and Engineering</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Feb 2023 - Present</span></div>
+                        <div class="flex-shrink-0" style="display:table; vertical-align: middle;"><span class="text-primary" style="display: table-cell; vertical-align: middle;">Feb 2023 - Aug 2023</span></div>
+                        
+                        <div class="flex-shrink-0 mb-2" style="flex-basis:100%"></div>
+                        
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-none d-lg-block flex-shrink-0" style="width: 4.5rem; height: 4.5rem; margin-right: 0.8rem;"/></div>
+                            <div class="flex-grow-1">
+                                <p style="font-size: calc(0.7rem + 0.5vw);">Computer Vision Lab., advised by professor <a href="https://jaesik.info">Jaesik Park</a>.</p>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">POSTECH(Pohang University of Science and Technology)</h3>
-                            <div class="subheading mb-3">B.S., Computer Science and Engineering</div>
-                            <p><b><em>Cum Laude</em></b>, GPA: 3.83 / 4.3</p>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="display: table; flex-wrap:wrap">
+                        <img class="d-none d-lg-block img-fluid img-profilem" src="./assets/img/postech.svg" alt="..." style="width: 4.5rem; height: 4.5rem; margin-right: 0.8rem; vertical-align: middle;"/>
+                        <div class="flex-grow-1" style="display: table;">
+                            <h3 class="mb-0" style="display: table-row">Pohang University of Science and Technology</h3>
+                            <div class="subheading mb-3" style="display: table-row; font-size: calc(1.0rem + 0.6vw);">B.S., Computer Science and Engineering</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Feb 2019 - Feb 2023</span></div>
+                        <div class="flex-shrink-0" style="display:table; vertical-align: middle;"><span class="text-primary" style="display: table-cell; vertical-align: middle;">Feb 2019 - Feb 2023</span></div>
+                        
+                        <div class="flex-shrink-0 mb-2" style="flex-basis:100%"></div>
+
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="d-none d-lg-block flex-shrink-0" style="width: 4.5rem; height: 4.5rem; margin-right: 0.8rem;"/></div>
+                            <div class="flex-grow-1">
+                                <p style="font-size: calc(0.7rem + 0.5vw);"><b><em>Cum Laude</em></b>, GPA: 3.83 / 4.3</p>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Sejong Science High School</h3>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="display: table; flex-wrap:wrap">
+                        <img class="d-none d-lg-block img-fluid img-profilem" src="./assets/img/sjsh.png" alt="..." style="width: 4.5rem; height: 4.5rem; margin-right: 0.8rem; vertical-align: middle;"/>
+                        <div class="flex-grow-1" style="display: table;">
+                            <h3 class="mb-0" style="display: table-row">Sejong Science High School</h3>
+                            <div class="subheading mb-2" style="display: table-row; font-size: calc(1.0rem + 0.6vw);">Highschool Student</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Mar 2016 - Feb 2019</span></div>
+                        <div class="flex-shrink-0" style="display:table; vertical-align: middle;"><span class="text-primary" style="display: table-cell; vertical-align: middle;">Mar 2016 - Feb 2019</span></div>
                     </div>
-                </div>
             </section>
             <hr class="m-0" />
            
@@ -122,12 +185,12 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Publications</h2>
 
-                    <div style="font-size:2rem" class="subheading mb-3"><strong>Domestic</strong></div>
+                    <div style="font-size:2rem; color:rgb(50, 50, 50)" class="subheading mb-3"><strong>Domestic</strong></div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1" style="padding-right: 1rem;">
-                            <p style="font-size:1.2rem" class="mb-1"><b>고정형 라이다 환경에서의 3차원 객체 인식 도메인 적응 기술 개발</b></p>
-                            <p class="mb-5"><b>Jinmo Kim</b>, Kwonyoung Ryu, and Jaesik Park., 제 35회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb. 2023.</p>
+                            <p style="font-size:1.2rem; color:rgb(70, 70, 70)" class="mb-1"><b>고정형 라이다 환경에서의 3차원 객체 인식 도메인 적응 기술 개발</b></p>
+                            <p class="mb-5"><b style="color:rgb(109, 109, 209)">Jinmo Kim</b>, Kwonyoung Ryu, and Jaesik Park., 제 35회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb. 2023.</p>
                         </div>
                     </div>
                 </div>
@@ -138,19 +201,20 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3"><b>Programming Languages & Tools</b></div>
+                    <div class="subheading mb-3"><b style="color:rgb(50, 50, 50)">Programming Languages & Tools</b></div>
 
                     <ul class="list-inline dev-icons mb-1">
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-git-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gitlab"></i></li>
+                        <li class="list-inline-item" style="color:rgb(70, 70, 70)"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item" style="color:rgb(70, 70, 70)"><i class="fab fa-git-alt"></i></li>
+                        <li class="list-inline-item" style="color:rgb(70, 70, 70)"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item" style="color:rgb(70, 70, 70)"><i class="fab fa-gitlab"></i></li>
+                        <li class="list-inline-item" style="color:rgb(70, 70, 70)"><i class="fab fa-docker"></i></li>
                     </ul>
 
                     <div class="text mb-3">
-                        <b>Programming Language:</b> C/C++, Python </br>
-                        <b>Tools:</b> PyTorch, Open3D, OpenCV, Git(GitHub, GitLab) </br>
-                        <b>Exposure to</b> PCL, OpenGL, GLSL, Verilog </br></br>
+                        <div class="mb-2"><b>Programming Language:</b> C/C++, Python</div>
+                        <div class="mb-2"><b>Tools:</b> PyTorch, TensorFlow, Open3D, OpenCV, Git(GitHub, GitLab), Docker</div>
+                        <div class="mb-2"><b>Exposure to</b> PCL, OpenGL, GLSL, Verilog, MATLAB</div>
                     </div>
                 </div>
             </section>
@@ -160,14 +224,14 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <div class="subheading mb-3"><strong>3D Vision</strong></div>
-                    <p class="mb-5">LiDAR and Camera based 3D Vision(SLAM, Calibration, Autonomous Driving, etc.)</p>
-                    <div class="subheading mb-3"><strong>Neural Rendering</strong></div>
-                    <p class="mb-5">Neural Rendering algorithms(e.g., NeRF, SDF)</p>
-                    <div class="subheading mb-3"><strong>Reinforcement Learning</strong></div>
-                    <p class="mb-5">Reinforcement Learning with Robotics</p>
-                    <div class="subheading mb-3"><strong>NLP(Natural Language Processing)</strong></div>
-                    <p class="mb-5">NLP with Semantic Segmentation(e.g., CLIP)</p>
+                    <div class="subheading mb-3" style="color:rgb(50, 50, 50)"><strong>3D LiDAR Perception</strong></div>
+                    <p class="mb-5">3D Perception task with LiDAR data (Semantic Segmentation/Object Detection with Point Clouds)</p>
+                    <div class="subheading mb-3" style="color:rgb(50, 50, 50)"><strong>Neural Graphics</strong></div>
+                    <p class="mb-5">Neural Graphics (Surface Reconstruction with LiDAR and Camera, Few-shot Shape Reconstruction)</p>
+                    <div class="subheading mb-3" style="color:rgb(50, 50, 50)"><strong>Robot Vision</strong></div>
+                    <p class="mb-5">Robot Vision (Object Manipulation with Vision)</p>
+                    <div class="subheading mb-3" style="color:rgb(50, 50, 50)"><strong>Open-vocabulary 3D Scene Understanding</strong></div>
+                    <p class="mb-5">Open-vocabulary Scene Understanding with Vision-Language Models (e.g. CLIP, SAM, etc.)</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -180,7 +244,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1" style="padding-right: 1rem;">
                             <h3 class="mb-0">
-                                Research Participation in POSTECH Computer Vision Lab
+                                Research Participation in POSTECH Computer Vision Lab.
                             </h3>
                             <div class="subheading mb-1">Undergraduate Research Participant</div>
                             <p>Developed LiDAR-Camera integration for research and extrinsic calibration between LiDAR and omnidirectional camera.</p>
